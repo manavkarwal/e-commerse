@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "section-navbar">
+        <section class="top_txt">
+          <div class="head container">
+            <div class="head_txt">
+              <p>Free shipping, 30-day return or refund guarantee.</p>
+            </div>
+            <div class="sing_in_up">
+              <a href="#" >SIGH IN</a>
+              <a href="#" >SIGH UP</a>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <img
+                  src="./public/images/log.png"
+                  alt="thapa eCommerce logo"
+                  class="logo"
+                  width="80%"
+                  height="auto"
+                  />
+            </a>
+          </div>
+    
+          <nav class="navbar">
+            <ul>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a href="products.html" class="nav-link">products</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+              </li>
+              <li class="nav-item">
+                <a
+                href="addToCart.html"
+                class="nav-link add-to-cart-button"
+                id="cartValue"
+                >
+                  <i class="fa-solid fa-cart-shopping"> 0 </i>
+                    </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+     <!--  -->
+      <section class="addToCartElement">
+        <div class="container">
+            <section>
+                <div id="productCartContainer"></div>
+            </section>
+            <!--  -->
+
+            <!--  -->
+
+            <section class="productCartTotalElem">
+                <div class="productCartTotalElement">
+                    <p>Selected Offer Summary</p>
+                    <div class="productOrderTotal">
+                        <div>
+                            <p>Sub Total:</p>
+                            <p class="productSubTotal">0</p>
+                        </div>
+                        <div>
+                            <p>Tax:</p>
+                            <p class="productTax">₹50</p>
+                        </div>
+                        <hr/>
+                        <div>
+                            <p>Final Total :</p>
+                            <p class="productFinalTotal">0</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+      </section>
+    <!--  -->
+    <template id="productCartTemplate">
+        <div class="cards" id="cardValue">
+          <article class="information [card]">
+            <span class="Category"></span>
+            <div class="imageContainer">
+              <img class="productImage" src="" alt="" />
+            </div>
+      
+            <h2 class="productName"></h2>
+      
+            <div class="productRating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+      
+            <p class="productDescription"></p>
+      
+            <div class="productPriceElement">
+              <p class="productPrice"></p>
+              <p class="productActualPrice"></p>
+            </div>
+      
+            <div class="productStockElement">
+              <p class="productProperty">Total Stocks Available</p>
+              <p class="productStock"></p>
+            </div>
+      
+            <div class="productQuantityElement">
+              <p class="productProperty">Quantity(pieces)</p>
+              <div class="stockElement">
+                <button class="cartIncrement">+</button>
+                <p class="productQuantity">1</p>
+                <button class="cartDecrement">-</button>
+              </div>
+            </div>
+      
+           <button class="add-to-cart-button remove-to-cart-button">Remove</button>
+           
+          </article>
+        </div>
+      </template>
+      <!--  -->
+
+      <footer class="section-footer">
+        <div class="footer-container container">
+          <div class="content_1">
+            <img src="./public/images/logo.png" alt="logo"/>
+            <p>
+              Welcome 
+            </p>
+            <!-- <img src="https://i.postimg.cc/Nj9dgj98/cards.png"  alt="cards" /> -->
+          </div>
+          <div class="content_2">
+            <h4>SHOPPING</h4>
+            <a href="#">Computer SCience</a>
+            
+           
+          </div>
+          <div class="content_3">
+            <h4>Experience</h4>
+            <a href="./contact.html">contact us</a>
+            <a href="" target="_blank">payment</a>
+            
+          </div>
+          <div class="content_4">
+            <h4>NEWS</h4>
+            <p>ye to latest news hai</p>
+            <div class="f-mail">
+              <input type="email" placeholder="your Email"/>
+              <i class="bx bx-envelope"></i>
+            </div>
+            <hr />
+          </div>
+        </div>
+          <div class="f-design">
+          <div class="f-design-txt">
+            <p>Design and Code by manav</p>
+          </div>
+        </div>
+      </footer>
+      <script type="module"  src="showAddToCartCards.js"></script>
+</body>
+</html>

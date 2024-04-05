@@ -1,0 +1,61 @@
+[{
+    "id":1,
+    "name":"Laptop",
+    "category":"Computers",
+    "brand":"ExampleBrand",
+    "price":999.99,
+    "stock":"50",
+    "description": "Powerful laptop with a quad-core i5 processor, 8GB, 256 SSD, and a 14-inch FHD display.",
+    "image": "../images/lapi.png"
+},
+{
+    "id":2,
+    "name":"Smartphone",
+    "category":"Mobiles",
+    "brand":"TechGadget",
+    "price":499.99,
+    "stock":"100",  
+    "image": "../images/iphone.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12mp dual camera, 128GB storage, and a 4000mAh battery."
+},
+{
+    "id":3,
+    "name":"wireless Headphones",
+    "category":"Audio",
+    "brand":"SoundBeats",
+    "price":149.99,
+    "stock":"30",  
+    "image": "../images/headphone.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12mp dual camera, 128GB storage, and a 4000mAh battery."
+},
+{
+    "id":4,
+    "name":"Watches",
+    "category":"Wearable",
+    "brand":"FitTech",
+    "price":199.99,
+    "stock":"20",  
+    "image": "../images/watch.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12mp dual camera, 128GB storage, and a 4000mAh battery."
+},
+{
+    "id":5,
+    "name":"Speakers",
+    "category":"Audio",
+    "brand":"SoundBeats",
+    "price":199.99,
+    "stock":"30",  
+    "image": "../images/speakers.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12mp dual camera, 128GB storage, and a 4000mAh battery."
+},
+{
+    "id":6,
+    "name":"Television",
+    "category":"Video",
+    "brand":"Samsung",
+    "price":199.99,
+    "stock":"20",  
+    "image": "../images/tv.png",
+    "description": "Feature-rich smartphone with a 6.2-inch screen, 12mp dual camera, 128GB storage, and a 4000mAh battery."
+}
+]
